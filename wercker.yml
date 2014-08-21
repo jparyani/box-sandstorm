@@ -1,0 +1,6 @@
+box: jparyani/ubuntu14.04
+build:
+  steps:
+    - script:
+      name: uname
+      code: uname -a
